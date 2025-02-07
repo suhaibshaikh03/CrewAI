@@ -1,0 +1,21 @@
+[project]
+name = "router"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "suhaibshaikh03", email = "suhaibshaikh2003@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "crewai>=0.100.1",
+    "litellm>=1.59.8",
+]
+
+[project.scripts]
+router = "router:main"
+kickoff = "router.main:kickoff"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
