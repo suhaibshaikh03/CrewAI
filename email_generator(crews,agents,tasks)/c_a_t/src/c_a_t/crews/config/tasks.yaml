@@ -1,0 +1,7 @@
+write_email:
+  description: >
+    Write a email to your company's CEO about how using agentic AI, especially LangGraph, in the company.
+    Persuade him to adopt Agentic AI into the company's workflow to benefit from it . Write within the word limit : {word} 
+  expected_output: >
+    A beautifully crafted email about AI agents,informing and persuading the CEO to adopt this new technology that would benefit the company .
+  agent: email_composer
